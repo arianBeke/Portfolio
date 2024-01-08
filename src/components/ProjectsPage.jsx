@@ -35,7 +35,7 @@ const ProjectsPage = () => {
               <img className=" w-full ring-2 ring-[#00df9a] rounded-2xl object-cover" src={projects.imageUrl} alt="" />
               <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-[#00df9a]">{projects.name}</h3>
               <p className="text-base leading-7 text-gray-300">{projects.type}</p>
-              <button className=" duration-300 mt-4 w-[300px] h-[50px] bg-[#00df9a] text-black rounded-md hover:bg-gray-700  hover:text-[#00df9a] ">Get Hub</button>
+              <button className=" duration-300 mt-4 w-[300px] h-[50px] bg-[#00df9a] text-black rounded-md hover:bg-gray-700  hover:text-[#00df9a] ">Git Hub</button>
             </li>
           ))}
         </ul>

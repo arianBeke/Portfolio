@@ -5,6 +5,7 @@ import {
     FaGithubSquare,
     FaInstagram,
     FaTwitterSquare,
+    FaSnapchatSquare
 
 } from 'react-icons/fa'
 
@@ -47,6 +48,9 @@ const Footer = () => {
                 </a>
                 <a href="https://github.com/arianBeke">
                     <FaGithubSquare className="hover:text-[#00df9a]" size={30} />
+                </a>
+                <a href="https://accounts.snapchat.com/accounts/snapcodes">
+                    <FaSnapchatSquare className="hover:text-[#00df9a]" size={30} />
                 </a>
             </div>
         </div>
